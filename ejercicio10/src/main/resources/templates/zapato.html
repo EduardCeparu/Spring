@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapato lista</title>
+</head>
+<body>
+    <ul th:object="${zapato}">
+        <li th:text="${zapato.id}"></li>
+        <li th:text="${zapato.marca}"></li>
+        <li th:text="${zapato.talla}"></li>
+        <li th:text="${zapato.precio}"></li>
+    </ul>
+</body>
+</html>
